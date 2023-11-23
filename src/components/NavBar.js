@@ -27,6 +27,13 @@ const NavBar = () => {
             <NavLink
               className={styles.NavLink}
               activeClassName={styles.Active}
+              to="/services"
+            >
+              <i className="fa-solid fa-store"></i>Services
+            </NavLink>
+            <NavLink
+              className={styles.NavLink}
+              activeClassName={styles.Active}
               to="/signin"
             >
               <i className="fa-solid fa-right-to-bracket"></i>Sign in
