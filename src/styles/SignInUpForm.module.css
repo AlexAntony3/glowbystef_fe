@@ -1,6 +1,7 @@
 .Row {
-  height: calc(100vh - 81px);
+  height: calc(100vh - 140px);
 }
+
 .Input {
   background: #ffffff;
   border: 1px solid #f0f1f9;
@@ -12,14 +13,20 @@
 }
 
 .Header {
-  font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 30px;
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #2142b2;
+  color: #24517C;
+  border-bottom: 2px solid #24517C;
+  padding-bottom: 10px;
+}
+
+.Placeholder {
+  font-family: "Dancing Script", sans-serif ;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .Link {
@@ -30,7 +37,8 @@
 }
 
 .Link span {
-  color: #ff9254;
+  color: #2c9c00;
+  transition: color 0.3s ease;
 }
 
 .Container {
